@@ -1,9 +1,10 @@
 import React from "react";
+import Decrement from "./Components/Decrement";
 
 function App() {
   return (
     <div className="container">
-      <h1 className="title has-text-centered">Hello there</h1>
+      <Decrement start={10} />
     </div>
   );
 }
